@@ -12,6 +12,7 @@ Making Pull Requests on Github can be a bit difficult at first as there are a fe
 
 Lets use this Repo as practice together to make sure we have a step by step guide to get everything working
 
+### Part One - Bringing Git to our Local Machine
 
 1) Fork this repo. You should see "github.com/~your_username~/SEIR-HW-Submission" in your browser URL. If it says SEIR-123 instead of "Your Username", you have not forked it correctly
 
@@ -35,8 +36,12 @@ test.txt
 
 on your screen.
 
+### Part Two - Pushing our Changes up to Github
+
 Now that we've made a change, we can enter our 3 magic Git commands to add our files and commit them, and then push them up to our repo.
 
+
+4) 
 ```
 git add .
 ``` 
@@ -44,6 +49,7 @@ git add .
 Which will add All of our files in this directory to the Git stack
 
 
+5)
 ```
 git commit -m "ready for submission"
 ```
@@ -53,6 +59,7 @@ Which will create a Git Commit with a message of "ready for submission". You can
 
 Once you have your Git files added and committed, they are Staged and ready to be pushed up. We do this with the command
 
+6)
 ```
 git push origin /branch-name/
 ```
@@ -69,7 +76,24 @@ Once your Git directory has been pushed up, go to the Github page and refresh yo
 
 Now that our files have been pushed to the git ecosystem, we can make our pull request. 
 
+### Part Three - Making the Pull Request
 
+7) On the nav bar of the Github page, select "Pull Requests", then click the big green button "New Pull Request"
+
+You will see two grey blocks, one will say "main", which is what your changes are going to merge into, which the other should say "your-username/main", or whichever branch you are working on
+
+Once you click the "Create Pull Request" button you'll be brought to a new screen where you can add in text
+
+When working on a project, you will put a short description of what changes you've made and why you are making the pull request, ie "Styling Buttons", "Fixing up Login functionality", "Resizing Images", or anything else you'll be tasked to do.
+
+For the sake of this class, we want to know
+ - Who you are - Make sure you have your Name (NOT your Github username) at the top
+ - Whether or not you have Completed the Assignment
+ - Your Comfort Level with the assignment between 1-5
+ - Any additonal questions you have
+
+
+Once you add those in, hit the big green button to open the Pull Request. You should now see your name in a list in that Pull Requests tab. When we review your assignment and give you the credit, we will Close the Pull Request. If you recieve an email saying something like "Pull Request Closed" it means we have checked your HW off and you are good to go for the assignment!
 
 ### Important!
 
