@@ -1,5 +1,4 @@
-## SEIR 123
-
+## SEIR 0508
 
 ### Homework Submission via Github Pull Requests
 
@@ -14,9 +13,9 @@ Lets use this Repo as practice together to make sure we have a step by step guid
 
 ### Part One - Bringing Git to our Local Machine
 
-1) Fork this repo. You should see "github.com/~your_username~/SEIR-HW-Submission" in your browser URL. If it says SEIR-123 instead of "Your Username", you have not forked it correctly
+1) Fork this repo. You should see "github.com/~your_username~/SEIR-HW-Submission" in your browser URL. If it says SEIR-0508 instead of "Your Username", you have not forked it correctly
 
-2) In your GA/Unit1 directory, clone down this repo. Again, make sure the cloned link you've copied has Your Username in it, not SEIR-123.
+2) In your GA/Unit1 directory, clone down this repo. Again, make sure the cloned link you've copied has Your Username in it, not SEIR-0508.
 
 3) Make a change to something in the directory, you can do this by creating a new file - cd into this directory (SEIR-HW-Submission) and then enter
 
